@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Registro de cliente</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registro de cliente</legend>
+        <label for="nombre">Nombre</label>
+        <input placeholder="sara" type="text" id="nombre"/>
+
+        <label for="apellido">Apellidos</label>
+        <input placeholder="rodriguez" type="text" id="apellido" size="30"/>
+
+        <label for="dni">Dni</label>
+        <input placeholder="25896989" type="number" id="dni" size="10" maxlength="8"/>
+
+        <label for="email">Email</label>
+        <input placeholder="sara@gmail.com" type="text" id="email">
+        
+        <label for="contraseña">Contraseña</label>
+        <input type="password" minlength="8" maxlength="16" id="contraseña"/>
+
+        
+        <p> <input type="checkbox" id="check"> términos de uso</p>
+
+        <input class="btn" type="submit" value="registarme"/>
+
+        
+    </fieldset>
+    
+</body>
+</html>
